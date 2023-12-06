@@ -233,7 +233,7 @@ Fungsi PHP include() dan require() merupakan fungsi yang digunakan untuk menyert
 
 ### Contoh lainnya untuk database connection dan query.
 
-4. Buat file dengan nama database.php
+4. Buat file dengan nama <b>database.php</b>
 
         <?php
         class Database
