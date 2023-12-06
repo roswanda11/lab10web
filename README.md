@@ -28,7 +28,7 @@
 
 # Langkah-langkah praktikum
 
-1. Buat file dengan pertama <b>mobil.php</b>
+1. Buat file dengan pertama <b>mobile.php</b>
       
         <?php
         /**
