@@ -334,7 +334,7 @@ Fungsi PHP include() dan require() merupakan fungsi yang digunakan untuk menyert
       protected $db_name;
       protected $conn;
 
-Properti-properit ini menyimpan informasi terkait dengan koneksi database, seperti alamat host, username, password, nama database, dan objek koneksi MySQLi.
+- Properti-properti ini menyimpan informasi terkait dengan koneksi database, seperti alamat host, username, password, nama database, dan objek koneksi MySQLi.
 
 ### 2. Constructor (__construct):
 
@@ -382,7 +382,7 @@ Properti-properit ini menyimpan informasi terkait dengan koneksi database, seper
           return $this->conn->query($sql);
       }
 
-Metode ini digunakan untuk mengeksekusi query SQL pada database.
+- Metode ini digunakan untuk mengeksekusi query SQL pada database.
 
 ### 5. Metode get($table, $where = null):
 
@@ -402,7 +402,7 @@ Metode ini digunakan untuk mengeksekusi query SQL pada database.
           // ... (menyisipkan data ke dalam tabel)
       }
 
-Metode ini digunakan untuk menyisipkan data baru ke dalam tabel.
+- Metode ini digunakan untuk menyisipkan data baru ke dalam tabel.
 
 ### 7. Metode update($table, $data, $where):
 
@@ -411,7 +411,7 @@ Metode ini digunakan untuk menyisipkan data baru ke dalam tabel.
           // ... (mengupdate data di dalam tabel berdasarkan kondisi WHERE)
       }
 
-Metode ini digunakan untuk memperbarui data di dalam tabel berdasarkan kondisi WHERE.
+- Metode ini digunakan untuk memperbarui data di dalam tabel berdasarkan kondisi WHERE.
 
 ### 8. Metode delete($table, $filter):
 
@@ -420,7 +420,7 @@ Metode ini digunakan untuk memperbarui data di dalam tabel berdasarkan kondisi W
           // ... (menghapus data dari tabel berdasarkan kondisi WHERE)
       }
 
-Metode ini digunakan untuk menghapus data dari tabel berdasarkan kondisi WHERE.
+- Metode ini digunakan untuk menghapus data dari tabel berdasarkan kondisi WHERE.
 
 # Pertanyaan dan Tugas
 
