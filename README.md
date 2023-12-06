@@ -77,7 +77,7 @@
         
         ?>
    
-  ### Penjelasan
+  ### PENJELASAN
   
 ### 1. Class Mobil:
    
@@ -174,7 +174,7 @@ Class adalah prototype, atau blueprint, atau rancangan yang mendefinisikan varia
 
 File tersebut tidak dapat dieksekusi langsung, karena hanya berisi deklarasi class. Untuk menggunakannya perlu dilakukan include pada file lain yang akan menjalankan dan harus dibuat instance object terlebih dulu.
 
-  ### Penjelasan
+  ### PENJELASAN
   
 ### 1. Class Form:
 
@@ -320,7 +320,7 @@ Fungsi PHP include() dan require() merupakan fungsi yang digunakan untuk menyert
             }
         }
 
-  ### Penjelasan
+  ### PENJELASAN
 
 ### 1. Properti:
 
