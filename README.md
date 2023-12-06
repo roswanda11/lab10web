@@ -227,6 +227,10 @@ Objek $myForm dibuat dari class Form. Kemudian, tiga field (Name, Email, dan Pho
    
 Fungsi PHP include() dan require() merupakan fungsi yang digunakan untuk menyertakan file php lain ke dalam suatu program PHP. Hal sangat yang sangat membantu proses pemrograman karena tidak perlu menulis program PHP secara berulang-ulang, cukup dalam satu file saja.
 
+### OUTPUT
+
+![image](https://github.com/roswanda11/lab10web/assets/115516632/e60fe616-f521-46df-8981-159d700afc15)
+
 ### Contoh lainnya untuk database connection dan query. Buat file dengan nama database.php
 
         <?php
