@@ -426,7 +426,7 @@ Fungsi PHP include() dan require() merupakan fungsi yang digunakan untuk menyert
 
 # Pertanyaan dan Tugas
 
-Implementasikan konsep modularisasi pada kode program pada praktukum sebelumnya dengan menggunakan class library untuk form dan database connection.
+Implementasikan konsep modularisasi pada kode program pada praktikum sebelumnya dengan menggunakan class library untuk form dan database connection.
 
 
 
