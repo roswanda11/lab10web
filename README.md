@@ -428,9 +428,34 @@ Fungsi PHP include() dan require() merupakan fungsi yang digunakan untuk menyert
 
 Implementasikan konsep modularisasi pada kode program pada praktikum sebelumnya dengan menggunakan class library untuk form dan database connection.
 
+1. Membuat file untuk menampilkan data (read)
+        
+        <?php
+        $mod = isset($_REQUEST['mod']) ? $_REQUEST['mod'] : 'default';
+        switch ($mod) {
+          case "data_barang":
+            require("index.php");
+            break;
+          case "index":
+            require("index.php");
+            break;
+          case "about":
+            require("about.php");
+            break;
+          case "form_input":
+            require("form_input.php");
+            break;
+          case "contact":
+            require("contact.php");
+            break;
+          case "data":
+            require("data.php");
+            break;
+          default;
+            require("index1.php");
+        }
 
-
-
+2. 
 
 
 
