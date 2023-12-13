@@ -459,15 +459,56 @@ Implementasikan konsep modularisasi pada kode program pada praktikum sebelumnya 
 
 2. Menambah Data (Create)
 
+![image](https://github.com/roswanda11/lab10web/assets/115516632/e8bcd0ec-e349-479e-ab9c-ca05bad5d18d)
+
+![Screenshot (560)](https://github.com/roswanda11/lab10web/assets/115516632/1dc01db9-248c-4bce-b32a-9856d6e9888e)
+
+3. Mengubah Data (Update)
+
+![Screenshot (561)](https://github.com/roswanda11/lab10web/assets/115516632/e648396b-cdb6-4325-b86d-747bdd5e8ede)
+
+![Screenshot (562)](https://github.com/roswanda11/lab10web/assets/115516632/5cbb68b9-0a2c-4d8f-8131-402491c8e374)
+
+4. Menghapus Data (Delete)
+
+![Screenshot (563)](https://github.com/roswanda11/lab10web/assets/115516632/da4c1029-525b-47bd-9786-c563fef698af)
+
+5. Masuk ke menu "about" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
+
+![image](https://github.com/roswanda11/lab10web/assets/115516632/42bbae97-07f2-4c27-88cd-a9d1ded5739e)
+
+6. Masuk ke menu "form" header dan footer merupakan implementasi praktikum sebelumnya, dan dibagian content membuat form input data ketika di submit akan tersimpan datanya di database
+
+
+
+7. Menampilkan pesan "localhost says" yang tandanya data sudah berhasil disimpan
+
+
+
+8. Ketika kita lihat, bahwa data yang sudah di input tadi akan masuk ke dalam database phpmyadmin
+
+
+
+9. Masuk ke menu "contact" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
+
+![image](https://github.com/roswanda11/lab10web/assets/115516632/c80735ca-1b65-484c-bf0c-9330bfcd74fd)
+
+10. Masuk ke menu "data form" menampilkan data dalam bentuk tabel yang sudah tadi kita input, dimana datanya tersebut sudah masuk ke dalam database phpmyadmin
 
 
 
 
+11. Klik pada bagian menu aksi yaitu button update dan pilih data yang ingin di ubah.
 
+![img](ss/ss19.png)
 
+12. Maka data tersebut berhasil di update/ubah
 
+![img](ss/ss20.png)
 
+13. Klik pada bagian menu aksi yaitu button delete dan pilih data yang ingin di hapus, semisalkan disini rifky abdillah hasan dihapus dan data sudah berhasil terhapus
 
+![img](ss/ss21.png)
 
 
 
