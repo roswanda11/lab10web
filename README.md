@@ -454,8 +454,10 @@ Implementasikan konsep modularisasi pada kode program pada praktikum sebelumnya 
           default;
             require("index1.php");
         }
+   
+![Screenshot (552)](https://github.com/roswanda11/lab10web/assets/115516632/10857d9f-bd89-4d97-a4c1-4b987c9eb0a2)
 
-2. 
+2. Menambah Data (Create)
 
 
 
