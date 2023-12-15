@@ -483,7 +483,7 @@ dan inilah data yang terecord di database setelah dilakukan perubahan:
 
 6. Masuk ke menu "form" header dan footer merupakan implementasi praktikum sebelumnya, dan dibagian content membuat form input data ketika di submit akan tersimpan datanya di database
 
-
+![image](https://github.com/roswanda11/lab10web/assets/115516632/8aeb24fe-2b7a-4b07-951d-1377d2135b11)
 
 7. Menampilkan pesan "localhost says" yang tandanya data sudah berhasil disimpan
 
@@ -504,15 +504,15 @@ dan inilah data yang terecord di database setelah dilakukan perubahan:
 
 11. Klik pada bagian menu aksi yaitu button update dan pilih data yang ingin di ubah.
 
-![img](ss/ss19.png)
+
 
 12. Maka data tersebut berhasil di update/ubah
 
-![img](ss/ss20.png)
+
 
 13. Klik pada bagian menu aksi yaitu button delete dan pilih data yang ingin di hapus, semisalkan disini rifky abdillah hasan dihapus dan data sudah berhasil terhapus
 
-![img](ss/ss21.png)
+
 
 
 
