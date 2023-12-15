@@ -510,7 +510,7 @@ dan inilah data yang terecord di database setelah dilakukan perubahan:
 
 
 
-13. Klik pada bagian menu aksi yaitu button delete dan pilih data yang ingin di hapus, semisalkan disini rifky abdillah hasan dihapus dan data sudah berhasil terhapus
+13. Klik pada bagian menu aksi yaitu button delete dan pilih data yang ingin di hapus, semisalkan disini Roswanda Nuraini dihapus dan data sudah berhasil terhapus
 
 
 
