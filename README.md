@@ -473,6 +473,10 @@ Implementasikan konsep modularisasi pada kode program pada praktikum sebelumnya 
 
 ![Screenshot (563)](https://github.com/roswanda11/lab10web/assets/115516632/da4c1029-525b-47bd-9786-c563fef698af)
 
+dan inilah data yang terecord di database setelah dilakukan perubahan:
+
+![image](https://github.com/roswanda11/lab10web/assets/115516632/e0dd726c-93c2-4eaf-906f-9288ae476c65)
+
 5. Masuk ke menu "about" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
 
 ![image](https://github.com/roswanda11/lab10web/assets/115516632/42bbae97-07f2-4c27-88cd-a9d1ded5739e)
