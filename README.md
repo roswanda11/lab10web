@@ -428,92 +428,45 @@ Fungsi PHP include() dan require() merupakan fungsi yang digunakan untuk menyert
 
 Implementasikan konsep modularisasi pada kode program pada praktikum sebelumnya dengan menggunakan class library untuk form dan database connection.
 
-1. Membuat file untuk menampilkan data (read)
-        
-        <?php
-        $mod = isset($_REQUEST['mod']) ? $_REQUEST['mod'] : 'default';
-        switch ($mod) {
-          case "data_barang":
-            require("index.php");
-            break;
-          case "index":
-            require("index.php");
-            break;
-          case "about":
-            require("about.php");
-            break;
-          case "form_input":
-            require("form_input.php");
-            break;
-          case "contact":
-            require("contact.php");
-            break;
-          case "data":
-            require("data.php");
-            break;
-          default;
-            require("index1.php");
-        }
+1. Masuk ke menu "home" header dan footer merupakan impelementasi praktikum sebelumnya, dan dibagian content merupakan OOP motor yang menambahkan beberapa objek yang lainnya
+
+![Screenshot (578)](https://github.com/roswanda11/lab10web/assets/115516632/ec7d6987-0eec-4bf8-9f67-2aea6f0b7185)
+
+2. Masuk ke menu "about" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
+
+![Screenshot (579)](https://github.com/roswanda11/lab10web/assets/115516632/c122e6ce-30a4-42d3-b863-3c28738b4b85)
+
+3. Masuk ke menu "form" header dan footer merupakan implementasi praktikum sebelumnya, dan dibagian content membuat form input data ketika di submit akan tersimpan datanya di database
+
+![Screenshot (580)](https://github.com/roswanda11/lab10web/assets/115516632/9627eeb2-8a1a-4787-a45b-0d9cd062a8bb)
+
+4. Menampilkan pesan "localhost says" yang tandanya data sudah berhasil disimpan
+
+![Screenshot (581)](https://github.com/roswanda11/lab10web/assets/115516632/ef1ec269-ed1e-41da-92ba-bb3e312a109f)
+
+5. Ketika kita lihat, bahwa data yang sudah di input tadi akan masuk ke dalam database phpmyadmin
+
+![image](https://github.com/roswanda11/lab10web/assets/115516632/f884150f-c849-4d0a-8c45-3f477d229062)
+
+6. Masuk ke menu "contact" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
+
+![Screenshot (582)](https://github.com/roswanda11/lab10web/assets/115516632/fec4167e-591f-449b-8506-61b2639b8c99)
+
+7. Masuk ke menu "data form" menampilkan data dalam bentuk tabel yang sudah tadi kita input, dimana datanya tersebut sudah masuk ke dalam database phpmyadmin
    
-![Screenshot (552)](https://github.com/roswanda11/lab10web/assets/115516632/10857d9f-bd89-4d97-a4c1-4b987c9eb0a2)
+![Screenshot (583)](https://github.com/roswanda11/lab10web/assets/115516632/fc6855db-93bb-4967-a8a8-f4bbdce69fda)
 
-2. Menambah Data (Create)
+8. Klik pada bagian menu aksi yaitu button update dan pilih data yang ingin di ubah, semisalkan disini  rido pikriyansyah status "aktif" menjadi "tidak aktif"
 
-![image](https://github.com/roswanda11/lab10web/assets/115516632/e8bcd0ec-e349-479e-ab9c-ca05bad5d18d)
+![image](https://github.com/roswanda11/lab10web/assets/115516632/1efb5f29-5cf4-4477-b8eb-f0600e4c5088)
 
-![Screenshot (560)](https://github.com/roswanda11/lab10web/assets/115516632/1dc01db9-248c-4bce-b32a-9856d6e9888e)
+9. Maka data tersebut berhasil di update/ubah dan status rido pikriyansyah menjadi "tidak aktif"
 
-3. Mengubah Data (Update)
+![image](https://github.com/roswanda11/lab10web/assets/115516632/c1030240-008c-4c3a-9119-8b06fcc51892)
 
-![Screenshot (561)](https://github.com/roswanda11/lab10web/assets/115516632/e648396b-cdb6-4325-b86d-747bdd5e8ede)
+10. Klik pada bagian menu aksi yaitu button delete dan pilih data yang ingin di hapus, semisalkan disini alif dwi putra dihapus dan data sudah berhasil terhapus
 
-![Screenshot (562)](https://github.com/roswanda11/lab10web/assets/115516632/5cbb68b9-0a2c-4d8f-8131-402491c8e374)
-
-4. Menghapus Data (Delete)
-
-![Screenshot (563)](https://github.com/roswanda11/lab10web/assets/115516632/da4c1029-525b-47bd-9786-c563fef698af)
-
-dan inilah data yang terecord di database setelah dilakukan perubahan:
-
-![image](https://github.com/roswanda11/lab10web/assets/115516632/e0dd726c-93c2-4eaf-906f-9288ae476c65)
-
-5. Masuk ke menu "about" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
-
-![image](https://github.com/roswanda11/lab10web/assets/115516632/42bbae97-07f2-4c27-88cd-a9d1ded5739e)
-
-6. Masuk ke menu "form" header dan footer merupakan implementasi praktikum sebelumnya, dan dibagian content membuat form input data ketika di submit akan tersimpan datanya di database
-
-![image](https://github.com/roswanda11/lab10web/assets/115516632/8aeb24fe-2b7a-4b07-951d-1377d2135b11)
-
-7. Menampilkan pesan "localhost says" yang tandanya data sudah berhasil disimpan
-
-
-
-8. Ketika kita lihat, bahwa data yang sudah di input tadi akan masuk ke dalam database phpmyadmin
-
-
-
-9. Masuk ke menu "contact" sama seperti praktikum sebelumnya dan dibagian isi sudah saya jelaskan
-
-![image](https://github.com/roswanda11/lab10web/assets/115516632/c80735ca-1b65-484c-bf0c-9330bfcd74fd)
-
-10. Masuk ke menu "data form" menampilkan data dalam bentuk tabel yang sudah tadi kita input, dimana datanya tersebut sudah masuk ke dalam database phpmyadmin
-
-
-
-
-11. Klik pada bagian menu aksi yaitu button update dan pilih data yang ingin di ubah.
-
-
-
-12. Maka data tersebut berhasil di update/ubah
-
-
-
-13. Klik pada bagian menu aksi yaitu button delete dan pilih data yang ingin di hapus, semisalkan disini Roswanda Nuraini dihapus dan data sudah berhasil terhapus
-
-
-
+![image](https://github.com/roswanda11/lab10web/assets/115516632/8e6b480a-5147-453a-bec9-8a51feff3815)
 
 
 
